@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Concept Barbearia | Barbearia em Mandaguaçu – PR</title>
+<meta name="description" content="Concept Barbearia em Mandaguaçu – PR: corte masculino, corte infantil, barba, sobrancelha, pigmentação e mais. Agende seu horário pelo WhatsApp.">
+<meta name="keywords" content="barbearia Mandaguaçu, barbeiro Mandaguaçu PR, corte masculino Mandaguaçu, barba Mandaguaçu, Concept Barbearia">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500;600&family=Bebas+Neue&family=Cormorant+Garamond:wght@500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"HairSalon","name":"Concept Barbearia","telephone":"+55 44 99774-3011","address":{"@type":"PostalAddress","streetAddress":"Av. Munhoz da Rocha, 1055 - Centro","addressLocality":"Mandaguaçu","addressRegion":"PR","addressCountry":"BR"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"20:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"08:00","closes":"20:00"}],"sameAs":["https://www.instagram.com/conceptbarbearia/","https://www.facebook.com/barbeariaconcept/"]}
+</script>
+<style>
+:root{--bg:#000;--bg2:#0b0b0b;--card:#111;--line:#262626;--tx:#fff;--mut:#a3a3a3;--au:#f1d99a;--au2:#c9a45c;--serif:'Playfair Display',Georgia,'Times New Roman',serif;--sans:'Inter',system-ui,-apple-system,'Segoe UI',Arial,sans-serif;--cond:'Bebas Neue',Impact,sans-serif;--cg:'Cormorant Garamond',Georgia,serif;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-behavior:smooth;scroll-padding-top:calc(76px + env(safe-area-inset-top,0px));height:100%}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:var(--sans);font-weight:300;line-height:1.7;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.15;margin:0}
+.wrap{width:min(1120px,92%);margin:0 auto}
+section{padding:96px 0;position:relative}
+.eyebrow{font-size:.75rem;letter-spacing:.35em;text-transform:uppercase;color:var(--au2);margin-bottom:14px;display:block}
+h2{font-size:clamp(1.9rem,4.5vw,3rem);margin-bottom:20px}
+h2::after{content:"";display:block;width:64px;height:1px;margin:18px 0 0;background:linear-gradient(90deg,var(--au),transparent)}
+.head h2::after,.book h2::after,.social h2::after{margin-inline:auto;background:linear-gradient(90deg,transparent,var(--au),transparent)}
+.gold{background:linear-gradient(100deg,var(--au2) 20%,#fff6d6 45%,var(--au) 55%,var(--au2) 80%);background-size:250% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:shine 5s linear infinite}
+@keyframes shine{to{background-position:-250% 0}}
+.btn{display:inline-block;padding:15px 30px;border:1px solid var(--au);font-size:.8rem;font-weight:500;letter-spacing:.2em;text-transform:uppercase;transition:.35s;cursor:pointer;text-align:center;position:relative;overflow:hidden}
+.btn::after{content:"";position:absolute;top:0;left:-80%;width:50%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.45),transparent);transform:skewX(-20deg);transition:left .7s}
+.btn:hover::after{left:130%}
+.btn.solid{background:var(--au);color:#000}.btn.solid:hover{background:transparent;color:var(--au)}
+.btn.ghost:hover{background:var(--au);color:#000}
+/* preloader */
+#pre{position:fixed;inset:0;z-index:999;background:#000;display:grid;place-items:center;transition:opacity .8s,visibility .8s}
+#pre.off{opacity:0;visibility:hidden}
+#pre .mono{width:100px;animation:pop 1s ease both,glow 2s 1s infinite}
+#bar{position:fixed;top:0;left:0;height:2px;width:0;background:linear-gradient(90deg,var(--au2),#fff6d6);z-index:80}
+#fx{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:1;opacity:.7}
+main,footer{position:relative;z-index:2}
+/* logo */
+.mono{display:block;filter:drop-shadow(0 0 10px rgba(241,217,154,.45))}
+@keyframes glow{50%{filter:drop-shadow(0 0 22px rgba(241,217,154,.85)) brightness(1.15)}}
+@keyframes wipe{from{clip-path:inset(0 100% 0 0);opacity:.2}to{clip-path:inset(0);opacity:1}}
+@keyframes pop{from{opacity:0;transform:scale(.7)}to{opacity:1;transform:none}}
+.logo{font-family:var(--cg);font-weight:600;font-size:1.3rem;letter-spacing:.32em;text-transform:uppercase;line-height:1.1;display:flex;align-items:center;gap:12px;color:var(--au)}
+.logo .mono{width:34px;flex:none;animation:glow 4s infinite}
+.logo small{display:block;font-family:var(--sans);font-size:.52rem;letter-spacing:.6em;color:var(--mut);margin-top:4px}
+/* header */
+header{position:fixed;inset:0 0 auto;z-index:50;padding-top:env(safe-area-inset-top,0px);transition:.4s}
+header.scrolled{background:rgba(0,0,0,.92);backdrop-filter:blur(10px);border-bottom:1px solid rgba(201,164,92,.3)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:#000}
+.nav{display:flex;align-items:center;justify-content:space-between;height:76px}
+nav ul{display:flex;gap:34px;list-style:none;margin:0;padding:0}
+nav a{font-size:.75rem;letter-spacing:.2em;text-transform:uppercase;color:#d4d4d4;transition:.3s;position:relative}
+nav a::after{content:"";position:absolute;left:0;bottom:-6px;width:0;height:1px;background:var(--au);transition:.35s}
+nav a:hover{color:var(--au)}nav a:hover::after{width:100%}
+.burger{display:none;background:none;border:0;width:44px;height:44px;cursor:pointer;padding:10px}
+.burger span{display:block;height:1px;background:var(--au);margin:7px 0;transition:.3s}
+.burger.open span:nth-child(1){transform:translateY(8px) rotate(45deg)}
+.burger.open span:nth-child(2){opacity:0}
+.burger.open span:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
+/* hero */
+.hero{min-height:100vh;min-height:100svh;display:flex;align-items:center;text-align:center;padding:120px 0 80px;background:radial-gradient(ellipse at 50% 30%,#2a2214 0%,#0a0a0a 55%,#000 100%);overflow:hidden}
+.hero::before{content:"";position:absolute;inset:-10% 0;background:repeating-linear-gradient(115deg,transparent 0 46px,rgba(241,217,154,.03) 46px 47px);transform:translateY(var(--py,0))}
+.hero::after{content:"";position:absolute;width:60vmax;height:60vmax;left:50%;top:30%;translate:-50% -50%;background:radial-gradient(circle,rgba(201,164,92,.16),transparent 60%);animation:breathe 6s ease-in-out infinite}
+@keyframes breathe{50%{opacity:.4;scale:1.15}}
+.hero .wrap{position:relative;z-index:3}
+.herologo{width:min(640px,88%);margin:0 auto}
+.herologo img{width:100%;display:block;animation:wipe 2.2s .4s cubic-bezier(.6,0,.2,1) both,glow 5s 2.6s infinite}
+.hero h1{font-family:var(--cond);font-weight:400;font-size:clamp(2.8rem,9vw,6rem);letter-spacing:.04em;margin:44px 0 22px;color:var(--au)}
+.hero p{max-width:560px;margin:0 auto 42px;color:#cfcfcf;font-size:clamp(1rem,2.2vw,1.2rem)}
+.cta{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+.scroll{position:absolute;left:50%;bottom:26px;width:22px;height:36px;border:1px solid var(--au2);border-radius:12px;translate:-50% 0;z-index:3}
+.scroll::after{content:"";position:absolute;left:50%;top:7px;width:2px;height:7px;margin-left:-1px;background:var(--au);animation:wheel 1.6s infinite}
+@keyframes wheel{to{transform:translateY(12px);opacity:0}}
+.sep{height:1px;background:linear-gradient(90deg,transparent,var(--au2),transparent);position:relative;z-index:2}
+/* about */
+.about{background:rgba(11,11,11,.85)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.about p{color:#cfcfcf;font-size:1.05rem}
+.painel {
+    aspect-ratio: 4 / 5;
+    border: 1px solid var(--line);
+    position: relative;
+    overflow: hidden;
+    background: #0b0b0b;
+}
+
+.painel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 38%;
+    display: block;
+    transition: transform 1.2s;
+}
+
+.painel:hover img {
+    transform: scale(1.04);
+}
+.painel::after{content:"";position:absolute;inset:14px;border:1px solid rgba(241,217,154,.35);pointer-events:none}
+/* services */
+.head{text-align:center;max-width:620px;margin:0 auto 56px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;perspective:900px}
+.card{background:linear-gradient(160deg,#151515,#0a0a0a);border:1px solid var(--line);padding:40px 30px;transition:border-color .4s,box-shadow .4s;position:relative;transform-style:preserve-3d}
+.card:hover{border-color:var(--au2);box-shadow:0 20px 50px rgba(201,164,92,.12)}
+.card svg{width:44px;height:44px;margin-bottom:22px;stroke:var(--au);fill:none;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;transition:.5s}
+.card:hover svg{transform:rotate(-8deg) scale(1.15);filter:drop-shadow(0 0 8px rgba(241,217,154,.6))}
+.card h3{font-size:1.35rem;margin-bottom:10px}
+.card p{margin:0;color:var(--mut);font-size:.95rem}
+.price{display:block;margin-top:18px;font-size:.7rem;letter-spacing:.25em;text-transform:uppercase;color:#7a6a45}
+/* posters */
+.posters{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.poster{position:relative;aspect-ratio:4/5;overflow:hidden;border:1px solid var(--line);cursor:zoom-in;padding:0;background:#000;display:block;transition:border-color .4s,box-shadow .5s}
+.poster img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 1s cubic-bezier(.2,.7,.2,1)}
+.poster:hover{border-color:var(--au);box-shadow:0 0 40px rgba(241,217,154,.2)}
+.poster:hover img{transform:scale(1.08)}
+.poster::after{content:"";position:absolute;top:0;left:-80%;width:45%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,240,200,.3),transparent);transform:skewX(-20deg);transition:left .9s}
+.poster:hover::after{left:140%}
+/* gallery */
+.gallery{background:rgba(11,11,11,.85)}
+.gal{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:210px;gap:14px}
+.tile{position:relative;overflow:hidden;border:1px solid var(--line);display:flex;align-items:flex-end;padding:18px;font-size:.72rem;letter-spacing:.25em;text-transform:uppercase;transition:border-color .4s}
+.tile:hover{border-color:var(--au2)}
+.tile::before{content:"";position:absolute;inset:0;background:var(--g);transition:transform .8s cubic-bezier(.2,.7,.2,1)}
+.tile img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .9s cubic-bezier(.2,.7,.2,1)}
+.tile:hover img,.tile:hover::before{transform:scale(1.12)}
+.tile::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.8),transparent 55%)}
+.tile span{position:relative;z-index:2;color:var(--au)}
+.t1{grid-column:span 2;grid-row:span 2}.t4{grid-column:span 2}
+.t1{--g:linear-gradient(145deg,#2a2a2a,#050505)}.t2{--g:linear-gradient(200deg,#3a3a3a,#0b0b0b)}.t3{--g:linear-gradient(120deg,#1a1a1a,#444)}.t4{--g:linear-gradient(90deg,#0a0a0a,#303030)}.t5{--g:linear-gradient(160deg,#4a4a4a,#111)}.t6{--g:linear-gradient(20deg,#222,#050505)}
+/* booking */
+.book{text-align:center;background:linear-gradient(135deg,#f6e6b8,#e3c47a 45%,#c9a45c);color:#000;overflow:hidden}
+.book::before{content:"";position:absolute;inset:0;background:linear-gradient(100deg,transparent 35%,rgba(255,255,255,.4) 50%,transparent 65%);background-size:250% 100%;animation:shine 6s linear infinite}
+.book .wrap{position:relative}
+.book .eyebrow{color:#5b4519}
+.book h2{font-size:clamp(2rem,5.5vw,3.6rem)}
+.book h2::after{background:linear-gradient(90deg,transparent,#000,transparent)}
+.book p{color:#3b2e12;max-width:520px;margin:0 auto 36px}
+.book .btn{border-color:#000;color:#000;margin:6px}
+.book .btn.solid{background:#000;color:var(--au)}.book .btn.solid:hover{background:transparent;color:#000}
+.book .btn.ghost:hover{background:#000;color:var(--au)}
+/* location */
+.info li{list-style:none;display:flex;justify-content:space-between;gap:20px;padding:14px 0;border-bottom:1px solid var(--line);color:#d4d4d4}
+.info{padding:0;margin:20px 0 30px}
+.info li span:last-child{color:var(--au)}
+.map{aspect-ratio:1/1;border:1px solid var(--line);background:radial-gradient(circle at 50% 45%,#2a2214,#050505 70%);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:30px;gap:14px}
+.map svg{width:46px;stroke:var(--au);fill:none;stroke-width:1.3;animation:bob 2.4s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-8px)}}
+.map p{margin:0;color:#cfcfcf}
+/* social */
+.social{background:rgba(11,11,11,.85);text-align:center}
+.icons{display:flex;gap:18px;justify-content:center;margin-top:30px}
+.icons a{width:58px;height:58px;border:1px solid var(--au);color:var(--au);display:grid;place-items:center;transition:.35s}
+.icons a:hover{background:var(--au);color:#000;transform:translateY(-5px) rotate(6deg);box-shadow:0 10px 24px rgba(241,217,154,.3)}
+.icons svg{width:24px;height:24px;fill:currentColor}
+/* footer */
+footer{border-top:1px solid rgba(201,164,92,.3);padding:64px 0 28px;background:#000}
+.fgrid{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:40px}
+footer h4{font-family:var(--serif);font-weight:500;margin:0 0 14px;letter-spacing:.1em;color:var(--au)}
+footer p{margin:0 0 6px;color:var(--mut);font-size:.9rem}
+footer .btn{padding:11px 20px;margin:0 8px 8px 0;font-size:.7rem}
+.copy{text-align:center;margin-top:44px;padding-top:22px;border-top:1px solid var(--line);color:#666;font-size:.78rem}
+/* floating wa */
+.wa{position:fixed;right:20px;bottom:calc(20px + env(safe-area-inset-bottom,0px));z-index:70;width:58px;height:58px;border-radius:50%;background:var(--au);color:#000;display:grid;place-items:center;transition:.3s;animation:pulse 2.2s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(241,217,154,.6)}70%{box-shadow:0 0 0 22px rgba(241,217,154,0)}100%{box-shadow:0 0 0 0 rgba(241,217,154,0)}}
+.wa:hover{transform:scale(1.1) rotate(-8deg)}.wa svg{width:28px;height:28px;fill:currentColor}
+/* lightbox */
+#lb{position:fixed;inset:0;z-index:200;background:rgba(0,0,0,.94);display:grid;place-items:center;opacity:0;visibility:hidden;transition:.4s;cursor:zoom-out;padding:20px}
+#lb.on{opacity:1;visibility:visible}
+#lb img{max-width:92vw;max-height:88vh;border:1px solid var(--au2);box-shadow:0 0 60px rgba(241,217,154,.25);transform:scale(.92);transition:transform .5s}
+#lb.on img{transform:none}
+/* reveal */
+.rv{opacity:0;transform:translateY(28px);transition:opacity .9s ease,transform .9s ease}
+.rv.in{opacity:1;transform:none}
+.d1{transition-delay:.15s}.d2{transition-delay:.3s}.d3{transition-delay:.45s}
+@media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}*{animation:none!important}}
+@media(max-width:900px){
+section{padding:72px 0}
+.grid2,.fgrid{grid-template-columns:1fr;gap:36px}
+.cards{grid-template-columns:1fr 1fr}
+.posters{grid-template-columns:1fr;max-width:420px;margin:0 auto}
+.gal{grid-template-columns:1fr 1fr;grid-auto-rows:170px}.t1{grid-column:span 2}
+.burger{display:block}
+nav{position:fixed;inset:calc(76px + env(safe-area-inset-top,0px)) 0 auto;background:#000;border-bottom:1px solid var(--line);max-height:0;overflow:hidden;transition:max-height .4s}
+nav.open{max-height:360px}
+nav ul{flex-direction:column;gap:0;padding:10px 6%}
+nav li a{display:block;padding:16px 0;border-bottom:1px solid var(--line)}
+}
+@media(max-width:560px){.cards{grid-template-columns:1fr}.btn{width:100%}.cta{flex-direction:column}.book .btn{width:100%;margin:6px 0}}
+</style>
+</head>
+<body>
+<div id="pre"><img class="mono" src="images/logo-monograma.png" alt=""></div>
+<div id="bar"></div>
+<canvas id="fx"></canvas>
+
+<header id="top">
+<div class="wrap nav">
+<a href="#inicio" class="logo"><img class="mono" src="images/logo-monograma.png" alt=""><span>Concept<small>Barbearia</small></span></a>
+<nav id="menu"><ul>
+<li><a href="#sobre">Sobre</a></li><li><a href="#servicos">Serviços</a> </li><li><a href="#agendar">Agendar</a></li><li><a href="#local">Localização</a></li>
+</ul></nav>
+<button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</div>
+</header>
+
+<main>
+<section class="hero" id="inicio">
+<div class="wrap">
+<div class="herologo"><img src="images/logo-concept.png" alt="Concept Barbearia – Est. 2018"></div>
+<h1 class="rv d1">SEU ESTILO. SUA IDENTIDADE.</h1>
+<p class="rv d2">Mais do que uma barbearia, uma experiência de cuidado e personalidade.</p>
+<div class="cta rv d3">
+<a class="btn solid" href="#agendar">Agendar horário</a>
+<a class="btn ghost" href="#servicos">Conheça nossos serviços</a>
+</div>
+</div>
+<span class="scroll"></span>
+</section>
+<div class="sep"></div>
+
+<section class="about" id="sobre">
+<div class="wrap grid2">
+<div class="rv">
+<span class="eyebrow">Sobre a Concept</span>
+<h2>MAIS QUE UMA BARBEARIA</h2>
+<p>A Concept Barbearia é um espaço moderno dedicado ao estilo e aos cuidados masculinos. Nosso objetivo é proporcionar uma experiência diferenciada, unindo qualidade, atenção aos detalhes e profissionais preparados para valorizar sua personalidade.</p>
+</div>
+<div class="painel rv d1">
+<img src="concept-barbearia-4x5.jpg" alt="Concept Barbearia">
+</div>
+</div>
+</section>
+
+<section id="servicos">
+<div class="wrap">
+<div class="head rv"><span class="eyebrow">Serviços</span><h2>CUIDADO EM CADA DETALHE</h2></div>
+<div class="cards">
+<article class="card rv"><svg viewBox="0 0 48 48"><circle cx="12" cy="36" r="5"/><circle cx="36" cy="36" r="5"/><path d="M16 32 38 8M32 32 10 8"/></svg><h3>Corte masculino</h3><p>Cortes e degradês com acabamento preciso, alinhados ao seu estilo.</p><span class="price">Valor sob consulta</span></article>
+<article class="card rv d1"><svg viewBox="0 0 48 48"><circle cx="24" cy="18" r="8"/><path d="M8 42c2-10 8-14 16-14s14 4 16 14"/></svg><h3>Corte infantil</h3><p>Atendimento atencioso e corte moderno para os pequenos.</p><span class="price">Valor sob consulta</span></article>
+<article class="card rv d2"><svg viewBox="0 0 48 48"><path d="M10 14c0 14 3 26 14 28 11-2 14-14 14-28"/><path d="M16 26c4 3 12 3 16 0"/></svg><h3>Barba</h3><p>Modelagem e cuidado para uma barba bem desenhada.</p><span class="price">Valor sob consulta</span></article>
+<article class="card rv"><svg viewBox="0 0 48 48"><path d="M6 22c10-8 26-8 36 0"/><circle cx="24" cy="30" r="5"/></svg><h3>Sobrancelha</h3><p>Design discreto que valoriza a expressão do rosto.</p><span class="price">Valor sob consulta</span></article>
+<article class="card rv d1"><svg viewBox="0 0 48 48"><path d="M30 6 42 18 20 40 8 40 8 28Z"/><path d="M26 10 38 22"/></svg><h3>Pigmentação</h3><p>Realce de contornos e falhas com acabamento natural.</p><span class="price">Valor sob consulta</span></article>
+<article class="card rv d2"><svg viewBox="0 0 48 48"><path d="M24 6c8 10 12 16 12 22a12 12 0 0 1-24 0c0-6 4-12 12-22Z"/></svg><h3>Lavagem e penteado</h3><p>Finalização para sair com o visual alinhado.</p><span class="price">Valor sob consulta</span></article>
+</div>
+</div>
+</section>
+
+<section class="gallery" id="destaques">
+<div class="wrap">
+<div class="head rv"><span class="eyebrow">Destaques</span><h2>ESTILO QUE SE VÊ</h2></div>
+<div class="posters">
+<button class="poster rv" data-lb aria-label="Ampliar: Barba, cabelo e bigode"><img src="images/barba-cabelo-bigode.jpg" alt="Barba, cabelo e bigode – Concept Barbearia" loading="lazy"></button>
+<button class="poster rv d1" data-lb aria-label="Ampliar: Corte infantil"><img src="images/corte-infantil.jpg" alt="Corte infantil – Concept Barbearia" loading="lazy"></button>
+<button class="poster rv d2" data-lb aria-label="Ampliar: Agende seu horário"><img src="images/agende-horario.jpg" alt="Agende seu horário – Concept Barbearia" loading="lazy"></button>
+</div>
+</div>
+</section>
+
+
+<section class="book" id="agendar">
+<div class="wrap rv">
+<span class="eyebrow">Agendamento</span>
+<h2>SEU PRÓXIMO CORTE COMEÇA AQUI.</h2>
+<p>Escolha o profissional e agende diretamente pelo WhatsApp.</p>
+<a class="btn solid" href="https://api.whatsapp.com/message/ZVMBYRRKBVHWC1?autoload=1&amp;app_absent=0" target="_blank" rel="noopener">Agendar com Alef</a>
+<a class="btn ghost" href="https://api.whatsapp.com/message/QDXR35GRGZQNO1?autoload=1&amp;app_absent=0" target="_blank" rel="noopener">Agendar com Gustavo</a>
+</div>
+</section>
+
+<section id="local">
+<div class="wrap grid2">
+<div class="rv">
+<span class="eyebrow">Localização e funcionamento</span>
+<h2>VENHA NOS VISITAR</h2>
+<p style="color:#cfcfcf;margin:0">Av. Munhoz da Rocha, 1055 – Centro, Mandaguaçu – PR.</p>
+<ul class="info">
+<li><span>Segunda a sexta</span><span>09h às 20h</span></li>
+<li><span>Sábado</span><span>08h às 20h</span></li>
+<li><span>Domingo</span><span>Não informado</span></li>
+</ul>
+<a class="btn solid" href="https://www.google.com/maps/dir/?api=1&amp;destination=Concept+Barbearia+Av.+Munhoz+da+Rocha+1055+Mandaguacu+PR" target="_blank" rel="noopener">Como chegar</a>
+</div>
+<div class="map rv d1">
+<svg viewBox="0 0 48 48" stroke-linecap="round" stroke-linejoin="round"><path d="M24 44S10 30 10 20a14 14 0 0 1 28 0c0 10-14 24-14 24Z"/><circle cx="24" cy="20" r="5"/></svg>
+<p>Av. Munhoz da Rocha, 1055<br>Centro, Mandaguaçu – PR</p>
+<a class="btn ghost" href="https://www.google.com/maps/search/?api=1&amp;query=Concept+Barbearia+Av.+Munhoz+da+Rocha+1055+Mandaguacu+PR" target="_blank" rel="noopener">Abrir no Google Maps</a>
+</div>
+</div>
+</section>
+
+<section class="social">
+<div class="wrap rv">
+<span class="eyebrow">Redes sociais</span>
+<h2>ACOMPANHE NOSSOS TRABALHOS</h2>
+<p style="color:#cfcfcf;max-width:520px;margin:0 auto">Siga a Concept Barbearia e veja os cortes, acabamentos e novidades do dia a dia.</p>
+<div class="icons">
+<a href="https://www.instagram.com/conceptbarbearia/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 7.2A4.8 4.8 0 1 0 12 16.8 4.8 4.8 0 0 0 12 7.2Zm0 7.9a3.1 3.1 0 1 1 0-6.2 3.1 3.1 0 0 1 0 6.2ZM17.3 5.6a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2ZM12 3c-2.4 0-2.7 0-3.7.1-1 0-1.7.2-2.3.4-.6.3-1.2.6-1.7 1.2-.5.5-.9 1.100-1.200 1.700-.2.600-.4 1.300-.4 2.300C2.600 9.700 2.600 10 2.600 12s0 2.700.1 3.700c0 1 .2 1.700.4 2.300.3.600.6 1.200 1.200 1.700.5.500 1.100.9 1.700 1.200.6.200 1.300.4 2.300.4 1 .1 1.300.1 3.700.1s2.700 0 3.700-.1c1 0 1.700-.2 2.300-.4.600-.3 1.200-.6 1.700-1.200.5-.5.9-1.100 1.200-1.700.2-.6.4-1.300.4-2.300.1-1 .1-1.300.1-3.700s0-2.700-.1-3.700c0-1-.2-1.700-.4-2.300-.3-.6-.6-1.200-1.200-1.700-.5-.5-1.100-.9-1.700-1.200-.6-.2-1.300-.4-2.300-.4C14.700 3 14.400 3 12 3Z" fill-rule="evenodd" transform="translate(-.6 0)"/></svg></a>
+<a href="https://www.facebook.com/barbeariaconcept/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M13.5 22v-8h2.700l.4-3.200h-3.100V8.800c0-.9.3-1.500 1.600-1.500h1.700V4.400c-.3 0-1.300-.1-2.400-.1-2.400 0-4.100 1.500-4.100 4.200v2.300H7.600V14h2.700v8h3.200Z"/></svg></a>
+</div>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="wrap">
+<div class="fgrid">
+<div><a href="#inicio" class="logo" style="margin-bottom:16px"><img class="mono" src="images/logo-monograma.png" alt=""><span>Concept<small>Barbearia</small></span></a><p>Av. Munhoz da Rocha, 1055<br>Centro, Mandaguaçu – PR</p><p>WhatsApp: 44 99774-3011</p></div>
+<div><h4>Funcionamento</h4><p>Segunda a sexta: 09h às 20h</p><p>Sábado: 08h às 20h</p><p>Domingo: não informado</p></div>
+<div><h4>Contato</h4>
+<a class="btn ghost" href="https://api.whatsapp.com/message/ZVMBYRRKBVHWC1?autoload=1&amp;app_absent=0" target="_blank" rel="noopener">WhatsApp Alef</a>
+<a class="btn ghost" href="https://api.whatsapp.com/message/QDXR35GRGZQNO1?autoload=1&amp;app_absent=0" target="_blank" rel="noopener">WhatsApp Gustavo</a>
+<a class="btn ghost" href="https://www.instagram.com/conceptbarbearia/" target="_blank" rel="noopener">Instagram</a>
+<a class="btn ghost" href="https://www.facebook.com/barbeariaconcept/" target="_blank" rel="noopener">Facebook</a></div>
+</div>
+<div class="copy">© <span id="yr">2026</span> Concept Barbearia. Todos os direitos reservados.</div>
+</div>
+</footer>
+
+<a class="wa" href="#agendar" aria-label="Agendar pelo WhatsApp"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.600 15.100L2 22l5-1.300A10 10 0 1 0 12 2Zm5.800 14.100c-.2.700-1.400 1.300-1.900 1.400-.5.100-1.100.1-1.800-.1-.4-.1-1-.3-1.700-.6-3-1.300-4.900-4.300-5.100-4.500-.1-.2-1.200-1.600-1.200-3s.8-2.100 1-2.400c.3-.3.600-.3.800-.3h.6c.2 0 .4 0 .6.500l.9 2.100c.1.200.1.400 0 .5l-.4.600-.4.400c-.1.200-.3.300-.1.600.2.300.8 1.300 1.700 2.100 1.200 1 2.100 1.300 2.400 1.500.3.100.5.100.6-.1l.9-1.100c.2-.3.4-.2.600-.1l2 1c.3.100.5.200.5.300.1.200.1.800-.1 1.300Z"/></svg></a>
+<div id="lb"><img alt=""></div>
+
+<script>
+(function(){
+var b=document.getElementById('burger'),m=document.getElementById('menu'),h=document.getElementById('top'),bar=document.getElementById('bar');
+function close(){m.classList.remove('open');b.classList.remove('open');b.setAttribute('aria-expanded','false')}
+b.addEventListener('click',function(){var o=m.classList.toggle('open');b.classList.toggle('open',o);b.setAttribute('aria-expanded',o)});
+m.addEventListener('click',function(e){if(e.target.tagName==='A')close()});
+var hero=document.querySelector('.hero');
+function sc(){var y=window.scrollY;h.classList.toggle('scrolled',y>40);
+var d=document.documentElement.scrollHeight-innerHeight;bar.style.width=(d>0?y/d*100:0)+'%';
+if(y<innerHeight*1.2)hero.style.setProperty('--py',(y*.25)+'px')}
+window.addEventListener('scroll',sc,{passive:true});sc();
+/* reveal */
+var els=document.querySelectorAll('.rv');
+if('IntersectionObserver' in window){
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
+els.forEach(function(el){io.observe(el)});
+}else{els.forEach(function(el){el.classList.add('in')})}
+document.getElementById('yr').textContent=new Date().getFullYear();
+/* preloader */
+var pre=document.getElementById('pre');
+function off(){pre.classList.add('off')}
+window.addEventListener('load',function(){setTimeout(off,1700)});setTimeout(off,3500);
+/* tilt 3D nos cards */
+if(matchMedia('(hover:hover)').matches){
+document.querySelectorAll('.card').forEach(function(c){
+c.addEventListener('mousemove',function(e){var r=c.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;
+c.style.transition='border-color .4s,box-shadow .4s';c.style.transform='rotateY('+x*10+'deg) rotateX('+(-y*10)+'deg) translateY(-6px)'});
+c.addEventListener('mouseleave',function(){c.style.transition='transform .6s,border-color .4s,box-shadow .4s';c.style.transform=''});
+});}
+/* lightbox */
+var lb=document.getElementById('lb'),li=lb.querySelector('img');
+document.querySelectorAll('[data-lb]').forEach(function(p){p.addEventListener('click',function(){var i=p.querySelector('img');li.src=i.src;li.alt=i.alt;lb.classList.add('on')})});
+lb.addEventListener('click',function(){lb.classList.remove('on')});
+document.addEventListener('keydown',function(e){if(e.key==='Escape')lb.classList.remove('on')});
+/* partículas douradas */
+var cv=document.getElementById('fx'),cx=cv.getContext('2d'),P=[],W,H;
+function rs(){W=cv.width=innerWidth;H=cv.height=innerHeight}
+rs();addEventListener('resize',rs);
+var N=innerWidth<700?28:55;
+for(var i=0;i<N;i++)P.push({x:Math.random()*W,y:Math.random()*H,r:Math.random()*1.6+.4,v:Math.random()*.35+.1,a:Math.random()*6.28,s:Math.random()*.02+.005});
+function tick(){cx.clearRect(0,0,W,H);
+P.forEach(function(p){p.y-=p.v;p.a+=p.s;p.x+=Math.sin(p.a)*.3;if(p.y<-5){p.y=H+5;p.x=Math.random()*W}
+cx.globalAlpha=.25+Math.abs(Math.sin(p.a))*.6;cx.fillStyle='#f1d99a';cx.beginPath();cx.arc(p.x,p.y,p.r,0,6.28);cx.fill()});
+requestAnimationFrame(tick)}
+if(!matchMedia('(prefers-reduced-motion:reduce)').matches)tick();
+})();
+</script>
+</body>
+</html>
